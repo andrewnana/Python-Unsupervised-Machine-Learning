@@ -1,1 +1,9 @@
 # Python-Unsupervised-Machine-Learning
+
+We have already collected and performed exploratory data analysis on community-level social determinants of health (SDOH) and chronic disease indicators. These data were derived from two complementary sources: the 2022 CDC PLACES dataset (Population Level Analysis and Community Estimates), which provides model-based estimates of health behaviors, risk factors, and preventive service use at the census tract and ZCTA levels, and the 2020 American Community Survey (ACS) 5-year estimates, which offer socio-demographic measures such as income, education, housing, and transportation access. All data cleaning, merging, and visualization steps are documented in the GitHub repository “Python-data-cleaning-merging-visualization-and-modeling.”
+
+Building on this foundation, we apply unsupervised machine learning methods to identify clusters of ZIP Code Tabulation Areas (ZCTAs) that share similar social and health profiles. By using approaches such as k-means, hierarchical clustering, and density-based clustering (DBSCAN), we aim to uncover latent community typologies that may not be apparent from descriptive analysis alone. These clusters can highlight geographic patterns of vulnerability, reveal co-occurring risk factors, and support the design of targeted public health interventions tailored to specific community contexts.
+
+The data was analyzed using Python 313 on VS code.
+
+Disclaimer: This analysis is intended for educational and research purposes only and has not been peer-reviewed. While efforts have been made to ensure the accuracy of the methods and results, the author does not guarantee the correctness or completeness of the analysis. The author bears no responsibility or liability for any errors, omissions, or outcomes resulting from the use of this material. Use at your own discretion.
